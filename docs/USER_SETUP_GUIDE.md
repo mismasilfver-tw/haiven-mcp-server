@@ -111,11 +111,11 @@ Choose your AI tool and add the Docker configuration:
 
 #### **Claude Desktop**
 1. **Find Claude Desktop's config file:**
-   - **Windows:** `%APPDATA%\Claude\config.json`
-   - **Mac:** `~/Library/Application Support/Claude/config.json`
-   - **Linux:** `~/.config/claude/config.json`
+   - **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+   - **Mac:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Linux:** `~/.config/claude/claude_desktop_config.json`
 
-2. **Create the config file if it doesn't exist** (just an empty file named `config.json`)
+2. **Create the config file if it doesn't exist** (just an empty file named `claude_desktop_config.json`)
 
 3. **Edit the config file** and add:
 
@@ -157,10 +157,10 @@ Choose your AI tool and add the Docker configuration:
 ```
 
 #### **Cursor**
-1. **Find Cursor's config file:**
-   - **Windows:** `%APPDATA%\Cursor\config.json`
-   - **Mac:** `~/Library/Application Support/Cursor/config.json`
-   - **Linux:** `~/.config/cursor/config.json`
+1. **Find Cursor's config file for MCP servers:**
+   - **Windows:** `%APPDATA%\Cursor\mcp.json`
+   - **Mac:** `~/Library/Application Support/Cursor/mcp.json`
+   - **Linux:** `~/.config/cursor/mcp.json`
 
 2. **Add the same Docker configuration as Claude Desktop**
 
@@ -272,11 +272,11 @@ The installer will generate configuration files for you. Use the **Option 1 (Ful
 
 #### **Claude Desktop**
 1. **Find Claude Desktop's config file:**
-   - **Windows:** `%APPDATA%\Claude\config.json`
-   - **Mac:** `~/Library/Application Support/Claude/config.json`
-   - **Linux:** `~/.config/claude/config.json`
+   - **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+   - **Mac:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Linux:** `~/.config/claude/claude_desktop_config.json`
 
-2. **Create the config file if it doesn't exist** (just an empty file named `config.json`)
+2. **Create the config file if it doesn't exist** (just an empty file named `claude_desktop_config.json`)
 
 3. **Edit the config file** and add the configuration from the installer output:
 
@@ -317,9 +317,9 @@ The installer will generate configuration files for you. Use the **Option 1 (Ful
 
 #### **Cursor**
 1. **Find Cursor's config file:**
-   - **Windows:** `%APPDATA%\Cursor\config.json`
-   - **Mac:** `~/Library/Application Support/Cursor/config.json`
-   - **Linux:** `~/.config/cursor/config.json`
+   - **Windows:** `%APPDATA%\Cursor\mcp.json`
+   - **Mac:** `~/Library/Application Support/Cursor/mcp.json`
+   - **Linux:** `~/.config/cursor/mcp.json`
 
 2. **Add the same MCP server configuration as Claude Desktop**
 
